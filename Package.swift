@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "VideoPlayer",
+    name: "VideoPlayerX",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "VideoPlayer",
-            targets: ["VideoPlayer"]
+            name: "VideoPlayerX",
+            targets: ["VideoPlayerX"]
         ),
     ],
     dependencies: [
@@ -17,7 +17,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "VideoPlayer",
+            name: "VideoPlayerX",
             dependencies: ["GSPlayer"],
             path: "Sources"
         ),
